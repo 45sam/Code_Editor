@@ -1,0 +1,38 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.language-select {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.CodeMirror {
+  height: 500px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.compile-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.compile-button:hover {
+  background-color: #0056b3;
+}
+
+.output {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+}
